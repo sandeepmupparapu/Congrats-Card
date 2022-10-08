@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.bg-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.heading {
+  font-family: "Roboto";
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 32px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 64px;
+  }
+}
+.profile-container {
+  background-color: #cffafe;
+  width: 80%;
+  border-radius: 12px;
+  padding: 23px;
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .profile-container {
+    width: 50%;
+    padding: 48px;
+    margin-top: 23px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .profile-container {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .profile-container {
+    width: 30%;
+  }
+}
+.image {
+  height: 145px;
+  width: 145px;
+}
+.name {
+  color: #1e293b;
+  font-weight: 500;
+  font-family: "Roboto";
+  font-size: 23px;
+  margin-top: 23px;
+}
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 32px;
+  }
+}
+.para {
+  text-align: center;
+  color: #1e293b;
+  font-size: 18px;
+  font-family: "Roboto";
+}
+@media screen and (min-width: 768px) {
+  .para {
+    font-size: 18px;
+  }
+}
+.watch-image {
+  margin-top: 23px;
+}
